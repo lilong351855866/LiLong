@@ -1,7 +1,39 @@
-<!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
-<scroll-view class="scrollarea" scroll-y type="list">
-  <view class="container">
-    Weixin
+<view class="page-wrap">
+  <!-- 顶部标题区域 -->
+  <view class="head-box">
+    <text class="main-title">画龙点景</text>
+    <text class="sub-title">CG虚拟仿真作品展示平台</text>
   </view>
-</scroll-view>
+
+  <!-- 介绍卡片 -->
+  <view class="card-box">
+    <text class="blue-text" style="font-size:36rpx;">关于本站</text>
+    <view style="margin-top:16rpx;line-height:1.8;">
+      <text>汇集UE5、Unity、Maya、3dmax三维场景渲染作品，包含写实场景、赛博朋克、古风环境、AI艺术创作等内容。</text>
+    </view>
+  </view>
+
+  <!-- 快捷跳转卡片 -->
+  <view class="card-box" bindtap="switchTab" data-path="cg">
+    <view style="display:flex;justify-content:space-between;align-items:center;">
+      <view>
+        <text style="font-size:34rpx;color:#fff;">浏览全部CG作品</text>
+        <view style="color:#94a3b8;margin-top:6rpx;">点击切换至CG画廊页面</view>
+      </view>
+      <text class="blue-text" style="font-size:40rpx;">›</text>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="switchTab" data-path="mine">
+    <view style="display:flex;justify-content:space-between;align-items:center;">
+      <view>
+        <text style="font-size:34rpx;color:#fff;">个人中心</text>
+        <view style="color:#94a3b8;margin-top:6rpx;">收藏与作品信息查看</view>
+      </view>
+      <text class="blue-text" style="font-size:40rpx;">›</text>
+    </view>
+  </view>
+
+  <!-- 底部留白 -->
+  <view style="height:120rpx;"></view>
+</view>

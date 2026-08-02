@@ -1,10 +1,32 @@
-/**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
+page {
+  background-color: #121a2b;
+  color: #c5d3e6;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+view {
   box-sizing: border-box;
-} 
+}
+image {
+  width: 100%;
+  display: block;
+}
+/* 卡片通用样式，深色科技风 */
+.card-box {
+  background: #1e293b;
+  border-radius: 12rpx;
+  margin: 20rpx;
+  padding: 20rpx;
+  border: 1px solid #273c59;
+}
+.blue-text {
+  color: #38bdf8;
+}
+.purple-text {
+  color: #a78bfa;
+}
+/* 导航栏文字变色 */
+.navigation-bar-text {
+  color: #38bdf8 !important;
+}

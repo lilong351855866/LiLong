@@ -1,0 +1,124 @@
+<view>
+  <view style="font-size:44rpx;color:#38bdf8;padding:30rpx 30rpx 10rpx;">我的CG作品</view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_SaiBo.jpg">
+    <image src="/images/thumb/UE5_SaiBo.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">赛博朋克</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染·Unreal Engine</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Unity_Chongqing.jpg">
+    <image src="/images/thumb/Unity_Chongqing.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">赛博重庆</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unity</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/HY_Day1.jpg">
+    <image src="/images/thumb/HY_Day1.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">HY办公室</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · 3DMax</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_JiangNanFengJing.jpg">
+    <image src="/images/thumb/UE5_JiangNanFengJing.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">江南水乡</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unreal Engine</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Ai_HuoJianFaShe2.jpg">
+    <image src="/images/thumb/Ai_HuoJianFaShe2.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">火箭发射</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Ai生成</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE_ChengShi.jpg">
+    <image src="/images/thumb/UE_ChengShi.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">游戏城市</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unreal Engine</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_GuMu1.jpg">
+    <image src="/images/thumb/UE5_GuMu1.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">古墓遗迹</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unreal Engine</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_XueJing.jpg">
+    <image src="/images/thumb/UE5_XueJing.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">河道雪景</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unreal Engine</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Maya_XiaoChangJing.jpg">
+    <image src="/images/thumb/Maya_XiaoChangJing.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">室内陈设</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Maya</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Ai_LianHuaPaoChe.jpg">
+    <image src="/images/thumb/Ai_LianHuaPaoChe.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">莲花跑车</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Ai生成</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE_xiaochangjing_1.jpg">
+    <image src="/images/thumb/UE_xiaochangjing_1.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">夜林烛火</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unreal Engine</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_PoMiao.jpg">
+    <image src="/images/thumb/UE5_PoMiao.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">破庙</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unreal Engine</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Ai_FeiYu.jpg">
+    <image src="/images/thumb/Ai_FeiYu.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">飞鱼</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · AI辅助</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Unity_Night1.jpg">
+    <image src="/images/thumb/Unity_Night1.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">古景夜色</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unity</view>
+    </view>
+  </view>
+
+  <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_TianYuan.jpg">
+    <image src="/images/thumb/UE5_TianYuan.jpg" mode="aspectFill" style="height:460rpx;border-radius:8rpx;"></image>
+    <view style="padding:15rpx 0;">
+      <text style="font-size:34rpx;color:#fff;">月光花海</text>
+      <view style="color:#94a3b8;margin-top:8rpx;">场景渲染 · Unreal Engine</view>
+    </view>
+  </view>
+
+</view>

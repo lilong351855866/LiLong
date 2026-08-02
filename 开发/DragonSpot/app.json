@@ -1,24 +1,41 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/project/project",
+    "pages/cg/cg",
+    "pages/mine/mine"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1e293b",
+    "navigationBarTitleText": "画龙点景",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#121a2b"
+  },
+  "tabBar": {
+    "color": "#8892a0",
+    "selectedColor": "#38bdf8",
+    "backgroundColor": "#1e293b",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "项目"
+      },
+      {
+        "pagePath": "pages/cg/cg",
+        "text": "CG"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
   },
   "style": "v2",
-  "renderer": "skyline",
-  "rendererOptions": {
-    "skyline": {
-      "defaultDisplayBlock": true,
-      "defaultContentBox": true,
-      "tagNameStyleIsolation": "legacy",
-      "disableABTest": true,
-      "sdkVersionBegin": "3.0.0",
-      "sdkVersionEnd": "15.255.255"
-    }
-  },
-  "componentFramework": "glass-easel",
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "sitemapLocation": "sitemap.json"
 }

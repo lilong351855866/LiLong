@@ -1,0 +1,22 @@
+<view style="padding-top:20rpx;">
+  <!-- 头像昵称区域 -->
+  <view class="card-box" style="display:flex;align-items:center;">
+    <image src="/images/Icon/TouXiang_HongLong.jpg" style="width:120rpx;height:120rpx;border-radius:50%;border:3rpx solid #38bdf8;animation: rotate 10s linear infinite;"></image>
+    <text class="purple-text" style="font-size:40rpx;margin-left:25rpx;">画龙点景</text>
+  </view>
+
+  <view class="card-box">
+    <view class="list-item" bindtap="noFunc">
+      <text class="blue-text">⭐ 我的收藏</text>
+      <text style="color:#60a5fa;">></text>
+    </view>
+    <view class="list-item" bindtap="noFunc">
+      <text class="blue-text">ℹ️ 关于小程序</text>
+      <text style="color:#60a5fa;">></text>
+    </view>
+    <view class="list-item" bindtap="noFunc">
+      <text class="blue-text">💬 联系我</text>
+      <text style="color:#60a5fa;">></text>
+    </view>
+  </view>
+</view>

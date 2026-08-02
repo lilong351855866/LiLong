@@ -1,0 +1,21 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #273c59;
+  font-size: 32rpx;
+}
+.list-item:last-child {
+  border-bottom: none;
+}
+
+/* 头像匀速旋转 */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

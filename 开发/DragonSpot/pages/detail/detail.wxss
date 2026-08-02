@@ -1,0 +1,15 @@
+page{
+  background:#0f172a;
+  height:100vh;
+}
+.container{
+  width:100vw;
+  height:calc(100vh - var(--status-bar-height));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.bigImage{
+  width:100%;
+  height:auto;
+}
