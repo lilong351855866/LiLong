@@ -1,0 +1,11 @@
+<view class="tabbar-wrap">
+  <view class="tab-item {{active === 0 ? 'active' : ''}}" bindtap="switchPage" data-index="0" data-path="/pages/index/index">
+    <text>首页</text>
+  </view>
+  <view class="tab-item {{active === 1 ? 'active' : ''}}" bindtap="switchPage" data-index="1" data-path="/pages/cg/cg">
+    <text>CG</text>
+  </view>
+  <view class="tab-item {{active === 2 ? 'active' : ''}}" bindtap="switchPage" data-index="2" data-path="/pages/mine/mine">
+    <text>我的</text>
+  </view>
+</view>
