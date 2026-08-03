@@ -20,15 +20,15 @@
   <!-- 作品卡片区域 -->
   <view class="card-grid">
     <view class="work-card" bindtap="switchToCg">
-      <image class="card-img" src="/images/thumb/UE5_GuMu1.jpg" mode="aspectFill"></image>
+      <image class="card-img" src="/images/thumb/HY_Day1.jpg" mode="aspectFill"></image>
       <view class="card-label">虚拟场景</view>
     </view>
     <view class="work-card" bindtap="switchToCg">
-      <image class="card-img" src="/images/thumb/UE5_SaiBo.jpg" mode="aspectFill"></image>
+      <image class="card-img" src="/images/thumb/Ai_HuoJianFaShe2.jpg" mode="aspectFill"></image>
       <view class="card-label">奇幻世界观</view>
     </view>
     <view class="work-card" bindtap="switchToCg">
-      <image class="card-img" src="/images/thumb/Ai_LianHuaPaoChe.jpg" mode="aspectFill"></image>
+      <image class="card-img" src="/images/thumb/UE5_JiangNanFengJing.jpg" mode="aspectFill"></image>
       <view class="card-label">游戏视觉</view>
     </view>
     <view class="work-card" bindtap="switchToCg">

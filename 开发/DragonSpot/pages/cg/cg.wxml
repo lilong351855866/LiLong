@@ -1,126 +1,21 @@
-<view class="page-wrap">
-  <view class="cg-list">
-    <view style="font-size:44rpx;color:#38bdf8;padding:30rpx 0 10rpx;">我的CG作品</view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_SaiBo.jpg">
-      <image class="cg-img" src="/images/thumb/UE5_SaiBo.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">赛博朋克</text>
-        <view class="engine">场景渲染·Unreal Engine</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Unity_Chongqing.jpg">
-      <image class="cg-img" src="/images/thumb/Unity_Chongqing.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">赛博重庆</text>
-        <view class="engine">场景渲染 · Unity</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/HY_Day1.jpg">
-      <image class="cg-img" src="/images/thumb/HY_Day1.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">HY办公室</text>
-        <view class="engine">场景渲染 · 3DMax</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_JiangNanFengJing.jpg">
-      <image class="cg-img" src="/images/thumb/UE5_JiangNanFengJing.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">江南水乡</text>
-        <view class="engine">场景渲染 · Unreal Engine</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Ai_HuoJianFaShe2.jpg">
-      <image class="cg-img" src="/images/thumb/Ai_HuoJianFaShe2.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">火箭发射</text>
-        <view class="engine">场景渲染 · Ai生成</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE_ChengShi.jpg">
-      <image class="cg-img" src="/images/thumb/UE_ChengShi.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">游戏城市</text>
-        <view class="engine">场景渲染 · Unreal Engine</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_GuMu1.jpg">
-      <image class="cg-img" src="/images/thumb/UE5_GuMu1.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">古墓遗迹</text>
-        <view class="engine">场景渲染 · Unreal Engine</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_XueJing.jpg">
-      <image class="cg-img" src="/images/thumb/UE5_XueJing.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">河道雪景</text>
-        <view class="engine">场景渲染 · Unreal Engine</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Maya_XiaoChangJing.jpg">
-      <image class="cg-img" src="/images/thumb/Maya_XiaoChangJing.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">室内陈设</text>
-        <view class="engine">场景渲染 · Maya</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Ai_LianHuaPaoChe.jpg">
-      <image class="cg-img" src="/images/thumb/Ai_LianHuaPaoChe.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">莲花跑车</text>
-        <view class="engine">场景渲染 · Ai生成</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE_xiaochangjing_1.jpg">
-      <image class="cg-img" src="/images/thumb/UE_xiaochangjing_1.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">夜林烛火</text>
-        <view class="engine">场景渲染 · Unreal Engine</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_PoMiao.jpg">
-      <image class="cg-img" src="/images/thumb/UE5_PoMiao.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">破庙</text>
-        <view class="engine">场景渲染 · Unreal Engine</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Ai_FeiYu.jpg">
-      <image class="cg-img" src="/images/thumb/Ai_FeiYu.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">飞鱼</text>
-        <view class="engine">场景渲染 · AI辅助</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/Unity_Night1.jpg">
-      <image class="cg-img" src="/images/thumb/Unity_Night1.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">古景夜色</text>
-        <view class="engine">场景渲染 · Unity</view>
-      </view>
-    </view>
-
-    <view class="card-box" bindtap="previewImg" data-src="/images/thumb/UE5_TianYuan.jpg">
-      <image class="cg-img" src="/images/thumb/UE5_TianYuan.jpg" mode="aspectFill"></image>
-      <view class="desc">
-        <text class="name">月光花海</text>
-        <view class="engine">场景渲染 · Unreal Engine</view>
-      </view>
-    </view>
+<view class="cg-container">
+  <view class="cg-header">
+    <text class="cg-title">我的CG作品</text>
   </view>
-  <tab-bar active="1"></tab-bar>
+
+  <scroll-view class="cg-list" scroll-y>
+    <view class="cg-item" wx:for="{{cgList}}" wx:key="id">
+      <!-- bindtap绑定到卡片，data-index放对位置 -->
+      <view class="cg-card" bindtap="previewImage" data-index="{{index}}">
+        <view class="watermark"></view>
+        <image class="cg-image" src="{{item.cover}}" mode="aspectFill"></image>
+        <view class="cg-info">
+          <text class="cg-name">{{item.name}}</text>
+          <text class="cg-tag">{{item.tag}}</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
 </view>
+
+<tab-bar active="1"></tab-bar>
