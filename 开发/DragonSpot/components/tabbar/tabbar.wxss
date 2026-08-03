@@ -21,7 +21,7 @@
   font-size: 32rpx;
   color: #8892a0;
 }
-/* 选中文字：亮蓝色 + 蓝光发光光晕 */
+/* 选中文字：亮蓝色 + 蓝光发光光晕，无图片纯css实现 */
 .tab-item.active {
   color: #38bdf8;
   text-shadow: 0 0 10rpx #38bdf8,0 0 20rpx rgba(56,189,248,0.6);

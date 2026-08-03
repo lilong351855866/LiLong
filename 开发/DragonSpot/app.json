@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/project/project",
     "pages/cg/cg",
     "pages/mine/mine"
   ],
@@ -13,18 +12,11 @@
     "backgroundColor": "#121a2b"
   },
   "tabBar": {
-    "color": "#8892a0",
-    "selectedColor": "#38bdf8",
-    "backgroundColor": "#1e293b",
-    "borderStyle": "black",
+    "custom": true,
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页"
-      },
-      {
-        "pagePath": "pages/project/project",
-        "text": "项目"
       },
       {
         "pagePath": "pages/cg/cg",

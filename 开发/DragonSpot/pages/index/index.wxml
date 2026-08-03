@@ -1,39 +1,42 @@
-<view class="page-wrap">
-  <!-- 顶部标题区域 -->
-  <view class="head-box">
-    <text class="main-title">画龙点景</text>
-    <text class="sub-title">CG虚拟仿真作品展示平台</text>
+<view class="page-root">
+  <!-- 顶部背景装饰 -->
+  <view class="top-bg">
+    <view class="gradient-circle circle-1"></view>
+    <view class="gradient-circle circle-2"></view>
   </view>
 
-  <!-- 介绍卡片 -->
-  <view class="card-box">
-    <text class="blue-text" style="font-size:36rpx;">关于本站</text>
-    <view style="margin-top:16rpx;line-height:1.8;">
-      <text>汇集UE5、Unity、Maya、3dmax三维场景渲染作品，包含写实场景、赛博朋克、古风环境、AI艺术创作等内容。</text>
+  <!-- 标题区域 -->
+  <view class="banner-box">
+    <text class="banner-title">画龙点景</text>
+    <text class="banner-sub">CG虚拟仿真作品展示平台</text>
+  </view>
+
+  <!-- 主轮播图 -->
+  <view class="banner-img-box">
+    <image class="show-img" src="{{currentImg}}" mode="aspectFill"></image>
+    <view class="img-mask"></view>
+  </view>
+
+  <!-- 作品卡片区域 -->
+  <view class="card-grid">
+    <view class="work-card" bindtap="switchToCg">
+      <image class="card-img" src="/images/thumb/UE5_GuMu1.jpg" mode="aspectFill"></image>
+      <view class="card-label">虚拟场景</view>
+    </view>
+    <view class="work-card" bindtap="switchToCg">
+      <image class="card-img" src="/images/thumb/UE5_SaiBo.jpg" mode="aspectFill"></image>
+      <view class="card-label">奇幻世界观</view>
+    </view>
+    <view class="work-card" bindtap="switchToCg">
+      <image class="card-img" src="/images/thumb/Ai_LianHuaPaoChe.jpg" mode="aspectFill"></image>
+      <view class="card-label">游戏视觉</view>
+    </view>
+    <view class="work-card" bindtap="switchToCg">
+      <image class="card-img" src="/images/thumb/Unity_ChongQing.jpg" mode="aspectFill"></image>
+      <view class="card-label">实时渲染</view>
     </view>
   </view>
 
-  <!-- 快捷跳转卡片 -->
-  <view class="card-box" bindtap="switchTab" data-path="cg">
-    <view style="display:flex;justify-content:space-between;align-items:center;">
-      <view>
-        <text style="font-size:34rpx;color:#fff;">浏览全部CG作品</text>
-        <view style="color:#94a3b8;margin-top:6rpx;">点击切换至CG画廊页面</view>
-      </view>
-      <text class="blue-text" style="font-size:40rpx;">›</text>
-    </view>
-  </view>
-
-  <view class="card-box" bindtap="switchTab" data-path="mine">
-    <view style="display:flex;justify-content:space-between;align-items:center;">
-      <view>
-        <text style="font-size:34rpx;color:#fff;">个人中心</text>
-        <view style="color:#94a3b8;margin-top:6rpx;">收藏与作品信息查看</view>
-      </view>
-      <text class="blue-text" style="font-size:40rpx;">›</text>
-    </view>
-  </view>
-
-  <!-- 底部留白 -->
-  <view style="height:120rpx;"></view>
+  <!-- 底部导航，首页激活发光 -->
+  <tab-bar active="0"></tab-bar>
 </view>

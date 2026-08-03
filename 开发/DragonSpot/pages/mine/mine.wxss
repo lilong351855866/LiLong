@@ -1,3 +1,8 @@
+page {
+  background-color: #121a2b;
+  padding-bottom: 110rpx;
+}
+
 .list-item {
   display: flex;
   justify-content: space-between;
@@ -8,6 +13,10 @@
 }
 .list-item:last-child {
   border-bottom: none;
+}
+
+.blue-text {
+  color: #38bdf8;
 }
 
 /* 头像匀速旋转 */

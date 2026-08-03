@@ -8,7 +8,8 @@ Component({
   methods: {
     switchPage(e) {
       const url = e.currentTarget.dataset.path
-      wx.reLaunch({
+      // tab页面必须使用wx.switchTab，官方规范
+      wx.switchTab({
         url: url
       })
     }
