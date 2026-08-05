@@ -2,7 +2,7 @@
   <!-- 头像昵称区域 -->
   <view class="card-box" style="display:flex;align-items:center;padding:30rpx;margin:20rpx;background:#1e293b;border-radius:16rpx;">
     <image src="/images/Icon/TouXiang_HongLong.jpg" style="width:120rpx;height:120rpx;border-radius:50%;border:3rpx solid #38bdf8;animation: rotate 10s linear infinite;"></image>
-    <text class="purple-text" style="font-size:40rpx;margin-left:25rpx;color:#c084fc;">画龙点景</text>
+    <text class="purple-text" style="font-size:40rpx;margin-left:25rpx;color:#c084fc;">工坊视界</text>
   </view>
 
   <view class="card-box" style="margin:20rpx;background:#1e293b;border-radius:16rpx;padding:0 30rpx;">
@@ -10,16 +10,56 @@
       <text class="blue-text">⭐ 我的收藏</text>
       <text style="color:#60a5fa;">></text>
     </view>
-    <view class="list-item" bindtap="noFunc">
+    <view class="list-item" bindtap="showAboutModal">
       <text class="blue-text">ℹ️ 关于小程序</text>
       <text style="color:#60a5fa;">></text>
     </view>
-    <view class="list-item" bindtap="noFunc">
+    <view class="list-item" bindtap="showContact">
       <text class="blue-text">💬 联系我</text>
       <text style="color:#60a5fa;">></text>
     </view>
   </view>
 
-  <!-- 底部导航栏 -->
+  <!-- 【关于小程序】弹窗 -->
+  <view wx:if="{{showAbout}}" class="mask" bindtap="closeAboutModal">
+    <view class="dialog big-dialog" bindtap="stopEvent">
+      <text class="dialog-title">工坊视界</text>
+      <text class="dialog-subtitle">CG虚拟仿真作品展示平台</text>
+      <view class="dialog-block">
+        <text class="block-title">平台介绍</text>
+        <text class="block-content">工坊视界是个人CG虚拟仿真作品集展示平台。
+汇集虚幻引擎、Unity实时渲染、三维场景、数字孪生、数字虚拟空间等原创视觉作品。
+因无平台视频资质，只有静态帧图。
+所有内容为个人创作，仅供交流欣赏。</text>
+      </view>
+      <view class="dialog-row">
+        <text class="row-label">版本</text>
+        <text class="row-value">V1.0.0</text>
+      </view>
+      <view class="dialog-row">
+        <text class="row-label">技术引擎</text>
+        <text class="row-value">UE5 / Unity</text>
+      </view>
+      <view class="dialog-row">
+        <text class="row-label">开发制作</text>
+        <text class="row-value">工坊视界</text>
+      </view>
+      <view class="dialog-btn" bindtap="closeAboutModal">
+        <text>知道了</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 【联系我】弹窗 -->
+  <view wx:if="{{showModal}}" class="mask" bindtap="closeModal">
+    <view class="dialog" bindtap="stopEvent">
+      <text class="dialog-title">交流说明</text>
+      <text class="dialog-content">欢迎交流CG、虚拟仿真、实时渲染相关创作。请勿发送广告、违规内容，文明沟通。</text>
+      <view class="dialog-btn" bindtap="closeModal">
+        <text>知道了</text>
+      </view>
+    </view>
+  </view>
+
   <tab-bar active="2"></tab-bar>
 </view>

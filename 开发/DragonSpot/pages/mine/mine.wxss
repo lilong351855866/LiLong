@@ -1,30 +1,111 @@
-page {
-  background-color: #121a2b;
-  padding-bottom: 110rpx;
-}
-
 .list-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30rpx 0;
-  border-bottom: 1px solid #273c59;
-  font-size: 32rpx;
+  padding: 32rpx 0;
+  border-bottom: 1rpx solid #273c59;
 }
 .list-item:last-child {
   border-bottom: none;
 }
-
 .blue-text {
+  font-size: 32rpx;
   color: #38bdf8;
 }
+.purple-text {
+  font-size: 40rpx;
+  color: #c084fc;
+}
 
-/* 头像匀速旋转 */
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+/*弹窗通用样式*/
+.mask{
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.65);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:999;
+}
+.dialog{
+  width:82%;
+  background:#1e293b;
+  border-radius:24rpx;
+  overflow:hidden;
+}
+.big-dialog{
+  max-height:80vh;
+  overflow-y:auto;
+}
+.dialog-title{
+  display:block;
+  text-align:center;
+  font-size:44rpx;
+  font-weight:bold;
+  color:#38bdf8;
+  padding:40rpx 30rpx 10rpx;
+}
+.dialog-subtitle{
+  display:block;
+  text-align:center;
+  font-size:28rpx;
+  color:#94a3b8;
+  padding:0 20rpx 30rpx;
+}
+.dialog-content{
+  display:block;
+  font-size:28rpx;
+  color:#cbd5e1;
+  line-height:1.7;
+  padding:0 40rpx 40rpx;
+  text-align:center;
+}
+.dialog-block{
+  margin:0 30rpx 30rpx;
+  background:#273c59;
+  border-radius:16rpx;
+  padding:30rpx;
+}
+.block-title{
+  display:block;
+  font-size:34rpx;
+  color:#38bdf8;
+  font-weight:bold;
+  margin-bottom:16rpx;
+}
+.block-content{
+  font-size:28rpx;
+  color:#cbd5e1;
+  line-height:1.7;
+}
+.dialog-row{
+  display:flex;
+  justify-content:space-between;
+  padding:24rpx 30rpx;
+  border-bottom:1rpx solid #273c59;
+}
+.dialog-row:last-of-type{
+  border-bottom:none;
+}
+.row-label{
+  font-size:30rpx;
+  color:#94a3b8;
+}
+.row-value{
+  font-size:30rpx;
+  color:#e2e8f0;
+}
+.dialog-btn{
+  width:100%;
+  text-align:center;
+  padding:32rpx;
+  border-top:1rpx solid #273c59;
+  margin-top:20rpx;
+}
+.dialog-btn text{
+  font-size:32rpx;
+  color:#38bdf8;
 }
