@@ -110,7 +110,7 @@
   color:#38bdf8;
 }
 
-/* ==========新增头像旋转动画========== */
+/* ==========头像旋转动画========== */
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
