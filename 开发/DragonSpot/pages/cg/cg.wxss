@@ -69,7 +69,7 @@ page {
   white-space: nowrap;
 }
 .watermark::after {
-  content: "画龙点景";
+  content: "工坊视界";
   position: absolute;
   bottom: 22rpx;
   right: 28rpx;

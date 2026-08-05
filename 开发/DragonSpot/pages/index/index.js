@@ -16,7 +16,7 @@ Page({
     this.randomChangeImg()
     const timer = setInterval(() => {
       this.randomChangeImg()
-    }, 3000)
+    }, 1400)
     this.setData({ timer })
   },
   randomChangeImg() {
