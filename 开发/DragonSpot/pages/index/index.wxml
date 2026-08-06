@@ -20,23 +20,35 @@
   <!-- 作品卡片区域 -->
   <view class="card-grid">
     <view class="work-card" bindtap="switchToCg">
-      <image class="card-img" src="/images/thumb/HY_Day1.jpg" mode="aspectFill"></image>
-      <view class="card-label">虚拟场景</view>
+      <image class="card-img" src="{{cardList[0].img}}" mode="aspectFill"></image>
+      <view class="card-label">虚拟仿真</view>
     </view>
     <view class="work-card" bindtap="switchToCg">
-      <image class="card-img" src="/images/thumb/Ai_HuoJianFaShe2.jpg" mode="aspectFill"></image>
-      <view class="card-label">奇幻世界观</view>
+      <image class="card-img" src="{{cardList[1].img}}" mode="aspectFill"></image>
+      <view class="card-label">赛博朋克</view>
     </view>
     <view class="work-card" bindtap="switchToCg">
-      <image class="card-img" src="/images/thumb/UE5_JiangNanFengJing.jpg" mode="aspectFill"></image>
+      <image class="card-img" src="{{cardList[2].img}}" mode="aspectFill"></image>
       <view class="card-label">游戏视觉</view>
     </view>
     <view class="work-card" bindtap="switchToCg">
-      <image class="card-img" src="/images/thumb/Unity_ChongQing.jpg" mode="aspectFill"></image>
+      <image class="card-img" src="{{cardList[3].img}}" mode="aspectFill"></image>
       <view class="card-label">实时渲染</view>
     </view>
   </view>
 
-  <!-- 底部导航，首页激活发光 -->
+  <!-- 电影胶片横向滚动区域【赛博蓝光圆孔版】 -->
+  <view class="film-container">
+    <view class="film-perforation-top"></view>
+    <view class="film-perforation-bottom"></view>
+    <view class="film-inner">
+      <view class="film-track">
+        <image class="film-img" wx:for="{{filmImgList}}" wx:key="*this" src="{{item}}" mode="aspectFill"></image>
+        <image class="film-img" wx:for="{{filmImgList}}" wx:key="copy_{*this}" src="{{item}}" mode="aspectFill"></image>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部导航 -->
   <tab-bar active="0"></tab-bar>
 </view>

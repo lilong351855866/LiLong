@@ -10,29 +10,105 @@ Page({
       "/images/thumb/Unity_ChongQing.jpg"
     ],
     currentImg: "/images/thumb/HY_Day1.jpg",
-    timer: null
+    timer: null,
+
+    cardList: [
+      {
+        label:"虚拟仿真",
+        imgIndex:0,
+        img:"/images/big/HY_Day1_3.jpg",
+        imgs:[
+          "/images/big/HY_Day1_3.jpg",
+          "/images/big/HY_Day2_1.jpg",
+          "/images/big/HY_Day1_1.jpg"
+        ]
+      },
+      {
+        label:"赛博朋克",
+        imgIndex:0,
+        img:"/images/big/UE5_SaiBo2.jpg",
+        imgs:[
+          "/images/big/UE5_SaiBo_1_1.jpg",
+          "/images/big/UE5_SaiBo_1_2.jpg"
+        ]
+      },
+      {
+        label:"游戏视觉",
+        imgIndex:0,
+        img:"/images/thumb/UE5_JiangNanFengJing.jpg",
+        imgs:[
+          "/images/thumb/UE_ChengShi.jpg",
+          "/images/thumb/UE5_GuMu1.jpg"
+        ]
+      },
+      {
+        label:"实时渲染",
+        imgIndex:0,
+        img:"/images/big/Unity_ChongQing169.jpg",
+        imgs:[
+          "/images/big/Unity_ChongQing169.jpg",
+          "/images/big/Unity_ChongQing60.jpg",
+          "/images/thumb/Unity_Night1.jpg"
+        ]
+      }
+    ],
+    cardTimer:null,
+
+    filmImgList:[
+      "/images/thumb/HY_Day1.jpg",
+      "/images/thumb/UE5_SaiBo.jpg",
+      "/images/thumb/UE5_GuMu1.jpg",
+      "/images/thumb/Ai_HuoJianFaShe2.jpg",
+      "/images/thumb/Ai_LianHuaPaoChe.jpg",
+      "/images/thumb/UE_xiaochangjing_1.jpg",
+      "/images/thumb/Unity_ChongQing.jpg"
+    ]
   },
+
   onLoad() {
     this.randomChangeImg()
     const timer = setInterval(() => {
       this.randomChangeImg()
     }, 1400)
     this.setData({ timer })
+
+    const cardTimer = setInterval(()=>{
+      this.updateCardImages()
+    },1600)
+    this.setData({cardTimer})
   },
+
   randomChangeImg() {
     const idx = Math.floor(Math.random() * this.data.imgList.length)
     this.setData({ currentImg: this.data.imgList[idx] })
   },
-  // 卡片点击跳转到CG页面
+
+  updateCardImages(){
+    let list = this.data.cardList
+    for(let i=0;i<list.length;i++){
+      list[i].imgIndex ++
+      if(list[i].imgIndex >= list[i].imgs.length){
+        list[i].imgIndex = 0
+      }
+      list[i].img = list[i].imgs[list[i].imgIndex]
+    }
+    this.setData({
+      cardList:list
+    })
+  },
+
   switchToCg() {
     wx.switchTab({
       url: "/pages/cg/cg"
     })
   },
-  // 页面销毁清除定时器，防止后台轮播耗电
+
   onUnload() {
     if (this.data.timer) {
       clearInterval(this.data.timer)
+    }
+    if(this.data.cardTimer){
+      clearInterval(this.data.cardTimer)
     }
   }
 })
