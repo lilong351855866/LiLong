@@ -12,7 +12,14 @@
       "outputPath": ""
     },
     "useCompilerPlugins": false,
-    "minifyWXML": true
+    "minifyWXML": true,
+    "compileWorklet": false,
+    "uploadWithSourceMap": true,
+    "packNpmManually": false,
+    "minifyWXSS": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "condition": false
   },
   "compileType": "miniprogram",
   "simulatorPluginLibVersion": {},
@@ -20,6 +27,7 @@
     "ignore": [],
     "include": []
   },
-  "appid": "touristappid",
-  "editorSetting": {}
+  "appid": "wxd3e09eed0e4552ae",
+  "editorSetting": {},
+  "isGameTourist": false
 }
