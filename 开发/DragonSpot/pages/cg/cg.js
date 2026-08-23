@@ -8,8 +8,8 @@ Page({
         cover: "/images/thumb/UE5_SaiBo.jpg",
         images: [
           "/images/thumb/UE5_SaiBo.jpg",
-          "/images/big/UE5_SaiBo_1_1.jpg",
-          "/images/big/UE5_SaiBo_1_2.jpg"
+          //"/images/big/UE5_SaiBo_1_1.jpg",
+          //"/images/big/UE5_SaiBo_1_2.jpg"
         ]
       },
       {
@@ -18,9 +18,8 @@ Page({
         tag: "场景渲染 · Unity",
         cover: "/images/thumb/Unity_ChongQing.jpg",
         images: [
-          "/images/thumb/Unity_ChongQing.jpg",
-          "/images/big/Unity_ChongQing169.jpg",
-          "/images/big/Unity_ChongQing60.jpg"
+          "/images/thumb/Unity_ChongQing169.jpg",
+         // "/images/thumb/Unity_ChongQing169.jpg",
         ]
       },
       {
@@ -29,11 +28,11 @@ Page({
         tag: "室内建模 · 模拟办公",
         cover: "/images/thumb/HY_Day1.jpg",
         images: [
-          "/images/big/HY_Day1.jpg",
-          "/images/big/HY_Day1_1.jpg",
-          "/images/big/HY_Day1_2.jpg",
-          "/images/big/HY_Day1_3.jpg",
-          "/images/big/HY_Day1_4.png"
+          "/images/thumb/HY_Day1.jpg",
+         // "/images/thumb/HY_Day1_1.jpg",
+         // "/images/thumb/HY_Day1_2.jpg",
+          "/images/thumb/HY_Day1_3.jpg",
+          "/images/thumb/HY_Day2_1.png"
         ]
       },
       {

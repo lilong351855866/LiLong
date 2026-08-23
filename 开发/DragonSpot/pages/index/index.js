@@ -16,20 +16,19 @@ Page({
       {
         label:"虚拟仿真",
         imgIndex:0,
-        img:"/images/big/HY_Day1_3.jpg",
+        img:"/images/thumb/HY_Day1.jpg",
         imgs:[
-          "/images/big/HY_Day1_3.jpg",
-          "/images/big/HY_Day2_1.jpg",
-          "/images/big/HY_Day1_1.jpg"
+          "/images/thumb/HY_Day1_3.jpg",
+          "/images/thumb/HY_Day2_1.jpg",
+          "/images/thumb/Unity_Night1.jpg"
         ]
       },
       {
         label:"赛博朋克",
         imgIndex:0,
-        img:"/images/big/UE5_SaiBo2.jpg",
+        img:"/images/thumb/UE5_SaiBo.jpg",
         imgs:[
-          "/images/big/UE5_SaiBo_1_1.jpg",
-          "/images/big/UE5_SaiBo_1_2.jpg"
+          "/images/thumb/Unity_ChongQing169.jpg"
         ]
       },
       {
@@ -38,16 +37,16 @@ Page({
         img:"/images/thumb/UE5_JiangNanFengJing.jpg",
         imgs:[
           "/images/thumb/UE_ChengShi.jpg",
-          "/images/thumb/UE5_GuMu1.jpg"
+          "/images/thumb/UE5_GuMu1.jpg",
+          "/images/thumb/UE5_XueJing.jpg"
         ]
       },
       {
         label:"实时渲染",
         imgIndex:0,
-        img:"/images/big/Unity_ChongQing169.jpg",
+        img:"/images/thumb/Unity_ChongQing.jpg",
         imgs:[
-          "/images/big/Unity_ChongQing169.jpg",
-          "/images/big/Unity_ChongQing60.jpg",
+          "/images/thumb/Unity_ChongQing169.jpg",
           "/images/thumb/Unity_Night1.jpg"
         ]
       }
