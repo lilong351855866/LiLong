@@ -86,7 +86,7 @@ Page({
         tag: "场景动画 · Unreal Engine",
         cover: "/images/thumb/UE5_GuMu1.jpg",
         images: [
-          "/images/thumb/UE5_XueJing.jpg"
+          "/images/thumb/UE5_GuMu1.jpg"
         ]
       },
       {
@@ -123,6 +123,15 @@ Page({
         cover: "/images/thumb/UE5_TianYuan.jpg",
         images: [
           "/images/thumb/UE5_TianYuan.jpg"
+        ]
+      },
+      {
+        id: 14,
+        name: "汽修车间",
+        tag: "虚拟仿真 · 3DMAX渲染",
+        cover: "/images/thumb/3Dmax_QiXiu.jpg",
+        images: [
+          "/images/thumb/3Dmax_QiXiu.jpg"
         ]
       }
     ]
