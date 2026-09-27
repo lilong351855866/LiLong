@@ -65,7 +65,7 @@ Page({
       {
         id: 7,
         name: "火箭发射",
-        tag: "场景动画 · Unreal Engine",
+        tag: "场景动画 · AiGC",
         cover: "/images/thumb/Ai_HuoJianFaShe2.jpg",
         images: [
           "/images/thumb/Ai_HuoJianFaShe2.jpg"
@@ -92,7 +92,7 @@ Page({
       {
         id: 10,
         name: "莲花跑车",
-        tag: "场景动画 · Unreal Engine",
+        tag: "场景动画 · Ai生成",
         cover: "/images/thumb/Ai_LianHuaPaoChe.jpg",
         images: [
           "/images/thumb/Ai_LianHuaPaoChe.jpg"
